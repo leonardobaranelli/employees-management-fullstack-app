@@ -14,7 +14,6 @@ namespace webapi.Core.Context
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-
         public DbSet<Client> Clients { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Proposal> Proposals { get; set; }
