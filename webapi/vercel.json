@@ -8,9 +8,9 @@
     ],
     "builds": [
       {
-        "src": "./",
+        "src": "webapi",
         "use": "@vercel/dotnet-builder"
       }
     ]
-}
+  }
   
