@@ -83,7 +83,8 @@ namespace webapi.Controllers
 
             _mapper.Map(dto, existingProject);
 
-            _context.Projects.Update(existingProject);
+            _context.Projects.Attach(existingProject);
+            _context.Entry(existingProject).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return Ok("Project updated successfully");

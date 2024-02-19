@@ -75,7 +75,6 @@ namespace webapi.Controllers
             }
 
             _mapper.Map(dto, existingClient);
-
             await _context.SaveChangesAsync();
 
             return Ok("Client updated successfully");
