@@ -14,10 +14,7 @@
   <img src="https://img.shields.io/badge/-Entity Framework-7A1B6C">   
   <img src="https://img.shields.io/badge/-PostgreSQL-blue">   
 </p>
-
-**<p align="left">Deploy</p>**
-
-*<p align="left">https://proposal-hub-backend-app.vercel.app<p>*
+<br/>
 <hr/>
 
 **<p align="left">Installation</p>**
