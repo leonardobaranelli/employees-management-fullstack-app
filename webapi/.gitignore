@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 
+#Environment variables
+.env
+
 #Private config and environment variables
 launchSettings.json
 
